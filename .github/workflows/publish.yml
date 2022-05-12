@@ -35,6 +35,6 @@ jobs:
       with:
         tagName: other-app-v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version
         releaseName: "Other App v__VERSION__"
-        releaseBody: "See the assets to download this version and install."
+        releaseBody: "Esse é um app de teste, você pode baixar logo abaixo."
         releaseDraft: true
         prerelease: false
