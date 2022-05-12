@@ -2,7 +2,7 @@
   "$schema": "..\\node_modules/@tauri-apps/cli\\schema.json",
   "build": {
     "beforeBuildCommand": "yarn run generate",
-    "beforeDevCommand": "yarn run dev",
+    "beforeDevCommand": "nuxt",
     "devPath": "http://localhost:3000",
     "distDir": "../dist"
   },
